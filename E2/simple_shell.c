@@ -15,7 +15,7 @@ void main(){
 		putchar('%');
 		fgets(input,100,stdin);
 		arg = strtok(input," \t\n");
-		strcpy(path,"./");
+		strcpy(path,"");
 		strcat(path,arg);
 		int i = 0;
 		while(arg != NULL){
